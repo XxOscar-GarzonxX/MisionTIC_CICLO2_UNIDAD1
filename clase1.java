@@ -15,8 +15,9 @@ public class clase01 {
         String nombre = scan.nextLine();
         String finale = saludo(nombre);
         System.out.println(finale);
+        system.out.println("Esto es un cambio");
     }
     public static String saludo(String nombre) {
         return ("Hola "+nombre+"!");
     }
-}
+} 
